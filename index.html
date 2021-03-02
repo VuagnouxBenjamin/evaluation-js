@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evaluation JavaScript</title>
+    <title>Évaluation JavaScript</title>
 
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -41,8 +41,8 @@
         </nav>
     </header>
     <div class="jumbotron" id="jumbo">
-        <h1 class="display-4">Evaluation JavaScript - TB20217 </h1>
-        <p class="lead">Cliquez sur un bouton pour lancer la fonction de l'exercice choisi et observez son resultat à l'intérieur du cadre joint.</p>
+        <h1 class="display-4">Évaluation JavaScript - TB20217 </h1>
+        <p class="lead">Cliquez sur un bouton pour lancer la fonction de l'exercice choisi et observez son résultat à l'intérieur du cadre joint.</p>
         <hr class="my-4">
         <p>Code source de l'évaluation présente sur <a href="https://github.com/VuagnouxBenjamin/evaluation-js" target="_blank">la page github de BenjaminV</a>.</p>
     </div>
@@ -67,7 +67,7 @@
                 </div>
                 <div class="exoText col-sm-12 col-lg-6 p-0 py-5">
                     <h2 class="text-success">Exercice 2 : Table de multiplication</h2>
-                    <p>La fonction vous demandera <span class="font-weight-bold">quelle table de multiplication</span> calculer. Cette deriere sera ensuite affichée dans le cadre ci-joint.</p>
+                    <p>La fonction vous demandera <span class="font-weight-bold">quelle table de multiplication</span> calculer. Cette derniere sera ensuite affichée dans le cadre ci-joint.</p>
                     <button id="exercice2Btn" type="button" class="btn btn-success shadow">Lancer la fonction</button>
                 </div>
             </section>
@@ -76,13 +76,13 @@
                 <div class="exoText col-sm-12 col-lg-6 p-0 py-5">
                     <h2 class="text-success">Exercice 3 : recherche d'un prénom</h2>
                     <p><span class="font-weight-bold">Saisissez un prénom</span>, il sera recherché dans le tableau ci-contre.</p>
-                    <p>Si le prénom est trouvé, on l'élimine du tableau en décalant les cases qui le suivent, et en mettant à blanc la dernière case. Si le prénom n'est pas trouvé un message d'erreur apparait et aucun prénom ne se supprime.</p>
+                    <p>Si le prénom est trouvé, on l'élimine du tableau en décalant les cases qui le suivent, et en mettant à blanc la dernière case. Si le prénom n'est pas trouvé, un message d'erreur apparaît et aucun prénom ne se supprime.</p>
                     <button id="exercice3Btn" type="button" class="btn btn-success shadow">Lancer la fonction</button>
                 </div>
                 <div class="exoShow shadow col-sm- col-lg-4 bg-dark rounded mr-lg-5 my-lg-5 mx-sm-auto">
                     <p id="" class="text-light mt-2"><small>Tableau initial : ["Audrey", "Aurélien", "Flavien", "Jérémy", "Laurent", "Melik", "Nouara", "Salem", "Samuel", "Stéphane"].</small></p>
                     <hr>
-                    <p id="exercice3return" class="text-light mt-2"><small></small></p>
+                    <p id="exercice3return" class="text-light mt-2"><small>Le resultat de la fonction sera affiché dans la console (f12)</small></p>
                 </div>
             </section>
             <hr id="exercice4">
@@ -92,7 +92,22 @@
                 </div>
                 <div class="exoText col-sm-12 col-lg-6 p-0 py-5">
                     <h2 class="text-success">Exercice 4 : total d'une commande</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, laudantium commodi voluptas officia quibusdam, ipsam assumenda omnis libero repellat laborum vel facere ducimus eum quae unde delectus reprehenderit qui corrupti.</p>
+                    <p>A partir de la saisie du <span class="font-weight-bold">prix unitaire noté PU</span> d'un produit et de <span class="font-weight-bold">la quantité commandée QTECOM</span>, afficher le prix à payer PAP, en détaillant la remise REM et
+                        le port PORT, sachant que :</p>
+                    <ul>
+                        <li>
+                            TOT = ( PU * QTECOM )
+                        </li>
+                        <li>
+                            la remise est de 5% si TOT est compris entre 100 et 200 € et de 10% au-delà
+                        </li>
+                        <li>
+                            le port est gratuit si le prix des produits ( le total remisé ) est supérieur à 500 €. Dans le cas contraire, le port est de 2%
+                        </li>
+                        <li>
+                            la valeur minimale du port à payer est de 6 €
+                        </li>
+                    </ul>
                     <button id="exercice4Btn" type="button " class="btn btn-success shadow">Lancer la fonction</button>
                 </div>
             </section>
@@ -100,11 +115,13 @@
             <section class="row d-flex justify-content-between m-3">
                 <div class="exoText col-sm-12 col-lg-6 p-0 py-5">
                     <h2 class="text-success">Exercice 5 : vérification d'un formulaire</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, laudantium commodi voluptas officia quibusdam, ipsam assumenda omnis libero repellat laborum vel facere ducimus eum quae unde delectus reprehenderit qui corrupti.</p>
+                    <p>Effectuez le contrôle de saisie de votre formulaire en Javascript.</p>
+                    <p>Lorsqu'une erreur est détectée, l'utilisateur doit en être informé grâce à l'affichage d'un message sous le champ concerné.</p>
+                    <p>Le formulaire ne peut être envoyé que lorsque tout est bon.</p>
                     <a href="contact.html"><button type="button" class="btn btn-success shadow">Voir le formulaire</button></a>
                 </div>
                 <div class="exoShow shadow col-sm- col-lg-4 bg-dark rounded mr-lg-5 my-lg-5 mx-sm-auto">
-                    <p class="text-light mt-2"><small>Le resultat de la fonction sera affiché ici</small></p>
+                    <p class="text-light mt-2"><small>Rien ne sera affiché ici, vous allez être redirigé vers la page formulaire.</small></p>
                 </div>
             </section>
             <hr>

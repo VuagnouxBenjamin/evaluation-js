@@ -36,7 +36,7 @@ const showSelect = document.getElementById("showSelect");
 
 // Regex validation 
 const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w]{2,4}$/;
-const phoneRegex = /^(?:(?:\+|00)33|0)\s*[1-9](?:[\s.-]*\d{2}){4}$/;
+const phoneRegex = /^(?:(?:\+|00)33[\s.-]{0,3}(?:\(0\)[\s.-]{0,3})?|0)[1-9](?:(?:[\s.-]?\d{2}){4}|\d{2}(?:[\s.-]?\d{3}){2})$/;
 
 //-------------------------------------------------------------
 // --- DECLARATION DES FONCTIONS ------------------------------
